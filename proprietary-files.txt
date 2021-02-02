@@ -127,6 +127,14 @@ vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
+# Vibrator firmware
+vendor/firmware/aw8697_haptic.bin
+vendor/firmware/aw8697_haptic_166.bin
+vendor/firmware/aw8697_haptic_168.bin
+vendor/firmware/aw8697_haptic_170.bin
+vendor/firmware/aw8697_haptic_172.bin
+vendor/firmware/aw8697_haptic_174.bin
+
 # Vibrator HAL
 vendor/lib/hw/vibrator.default.so
 vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
