@@ -79,7 +79,7 @@ vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 
 # DASH
-sbin/dashd:bin/dashd
+vendor/bin/dashd
 
 # Fingerprint
 -vendor/app/QFingerprintService/QFingerprintService.apk
