@@ -41,7 +41,6 @@ vendor/lib/camera/components/com.qti.stats.af.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libopcamera_native_modules.so
-vendor/lib/libsns_api.so
 vendor/lib/libsnsapi.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin
@@ -74,15 +73,13 @@ vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libopcamera_native_modules.so
-vendor/lib64/libsns_api.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 
-# DASH
-sbin/dashd:bin/dashd
+# DASH - from OnePlus7TOxygen_13.W.22_OTA_0210_all_2101121639_9a48c7dc03e64c06
+sbin/dashd:bin/dashd|128c932f1fc15e7d808289e47af0f3f835ea43bf
 
 # Fingerprint
--vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/lib/hw/goodix.fod.msmnile.so
 vendor/lib/fp_hal_extension.so
 vendor/lib/libgf_ud_hal.so
@@ -151,29 +148,27 @@ vendor/etc/sensors/config/sns_tilt_sw_disabled.json
 vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
-vendor/etc/sensors/config/stk2232_0.json
 vendor/etc/sensors/config/sx9324_0.json
 vendor/etc/sensors/config/sx932x_0.json
 vendor/etc/sensors/config/tcs3701.json
-vendor/etc/sensors/config/tmd3702.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
-# Vibrator firmware
-vendor/firmware/aw8697_haptic.bin
-vendor/firmware/aw8697_haptic_166.bin
-vendor/firmware/aw8697_haptic_168.bin
-vendor/firmware/aw8697_haptic_170.bin
-vendor/firmware/aw8697_haptic_172.bin
-vendor/firmware/aw8697_haptic_174.bin
-vendor/firmware/awinic_haptic_params.bin
-vendor/firmware/aw8697_rtp.bin
+# Vibrator firmware - from OnePlus7TOxygen_13.W.22_OTA_0210_all_2101121639_9a48c7dc03e64c06
+vendor/firmware/aw8697_haptic.bin|f3f92aae00b2b95b0259a25440a2883caa759340
+vendor/firmware/aw8697_haptic_166.bin|5c2b1c5573cab5e1d37d0b0c372344ca5a1140bf
+vendor/firmware/aw8697_haptic_168.bin|5c2b1c5573cab5e1d37d0b0c372344ca5a1140bf
+vendor/firmware/aw8697_haptic_170.bin|5c2b1c5573cab5e1d37d0b0c372344ca5a1140bf
+vendor/firmware/aw8697_haptic_172.bin|5c2b1c5573cab5e1d37d0b0c372344ca5a1140bf
+vendor/firmware/aw8697_haptic_174.bin|5c2b1c5573cab5e1d37d0b0c372344ca5a1140bf
+vendor/firmware/awinic_haptic_params.bin|59599032576e9914a529991661feaba3542cd4e0
+vendor/firmware/aw8697_rtp.bin|b2bf42d9333fffbb7f00da38d1bd1b6d5a85014a
 
-# Vibrator HAL
-vendor/lib/hw/vibrator.default.so
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/bin/hw/android.hardware.vibrator@1.0-service
+# Vibrator HAL - from OnePlus7TOxygen_13.W.22_OTA_0210_all_2101121639_9a48c7dc03e64c06
+vendor/lib/hw/vibrator.default.so|2fbe66764f6d3f6ae94fbcad636156d82a0e0010
+vendor/lib/hw/android.hardware.vibrator@1.0-impl.so|219273ab8232e0e4c523e76724f36461655d2ccf
+vendor/lib64/hw/vibrator.default.so|9c9744e702424f1709148a0ba61a238e0f37e37e
+vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so|61859bb0caf6b44dc25053f5094ffa52b64a2ab6
+vendor/etc/init/android.hardware.vibrator@1.0-service.rc|85b0f432b059c8d57e4a1822fa815cb5bf5f42cb
+vendor/bin/hw/android.hardware.vibrator@1.0-service|67c69d3a9e16a66535bd0c7aef172aeb9653bb43
